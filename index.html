@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site d'échange de codes cadeaux</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Site d'échange de codes cadeaux</h1>
+  </header>
+  
+  <main>
+    <section id="donor-section">
+      <h2>Publier un code</h2>
+      <form id="donor-form">
+        <label for="code-input">Code:</label>
+        <input type="text" id="code-input" required>
+        <button type="submit">Publier</button>
+      </form>
+    </section>
+    
+    <section id="receiver-section">
+      <h2>Récupérer un code</h2>
+      <button id="retrieve-button">Récupérer un code</button>
+      <p id="code-display"></p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
