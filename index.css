@@ -1,28 +1,25 @@
+/* Styles CSS */
+
+/* Centrer le contenu de la page */
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
   }
   
+  /* Style de l'en-tête */
   header {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  section {
-    margin-bottom: 20px;
+  /* Style de la section des donneurs */
+  #donor-section {
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
@@ -45,19 +42,22 @@ body {
   
   button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ffca1e;
     color: #fff;
     border: none;
     border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #ffd700;
   }
   
   #code-display {
     font-size: 18px;
     text-align: center;
-  }
-  
+    margin-top: 20px;
+  }  
