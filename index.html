@@ -3,6 +3,7 @@
 <head>
   <title>Drip Code Exchange</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body class="center-content">
   <header>
@@ -15,13 +16,13 @@
       <form id="donor-form">
         <label for="code-input">Code:</label>
         <input type="text" id="code-input" required>
-        <button type="submit">Post</button>
+        <button type="submit"><i class="fas fa-paper-plane"></i> Post</button>
       </form>
     </section>
     
     <section id="receiver-section">
       <h2>Retrieve a Code</h2>
-      <button id="retrieve-button">Retrieve a Code</button>
+      <button id="retrieve-button"><i class="fas fa-download"></i> Retrieve a Code</button>
       <p id="code-display"></p>
     </section>
   </main>
@@ -33,3 +34,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
