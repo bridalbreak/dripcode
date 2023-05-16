@@ -24,7 +24,7 @@ header {
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Ajout de cette ligne pour centrer le contenu */
+    text-align: center;
 }
 
 form {
@@ -72,3 +72,9 @@ button:hover {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
