@@ -1,6 +1,6 @@
-/* Styles CSS */
+/* CSS Styles */
 
-/* Centrer le contenu de la page */
+/* Center the content of the page */
 body {
     display: flex;
     flex-direction: column;
@@ -10,37 +10,37 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-  }
-  
-  /* Style de l'en-tête */
-  header {
+    }
+    
+    /* Header style */
+    header {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  /* Style de la section des donneurs */
-  #donor-section {
+    }
+    
+    /* Donor section style */
+    #donor-section {
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  form {
+    }
+    
+    form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  input[type="text"] {
+    }
+    
+    input[type="text"] {
     padding: 10px;
     margin-bottom: 10px;
     width: 200px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  button {
+    }
+    
+    button {
     padding: 10px 20px;
     background-color: #ffca1e;
     color: #fff;
@@ -50,14 +50,14 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  button:hover {
+    }
+    
+    button:hover {
     background-color: #ffd700;
-  }
-  
-  #code-display {
+    }
+    
+    #code-display {
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
-  }  
+    }
