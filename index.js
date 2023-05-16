@@ -1,32 +1,31 @@
-// Récupérer le formulaire de donneur et le champ de code
+// Retrieve the donor form and code input field
 const donorForm = document.getElementById("donor-form");
 const codeInput = document.getElementById("code-input");
 
-// Écouter l'événement de soumission du formulaire
+// Listen for the form submission event
 donorForm.addEventListener("submit", function(event) {
-  event.preventDefault(); // Empêcher le rechargement de la page
-  
-  const code = codeInput.value; // Récupérer la valeur du champ de code
-  
-  // Vous pouvez ajouter ici la logique d'enregistrement du code dans la base de données
-  
-  // Exemple de logique : Afficher le code dans la console
-  console.log("Code enregistré :", code);
-  
-  codeInput.value = ""; // Effacer le champ de code après soumission
+event.preventDefault(); // Prevent page reload
+
+const code = codeInput.value; // Retrieve the value from the code input field
+
+// You can add your code logic here to save the code in the database
+
+// Example logic: Display the code in the console
+console.log("Saved code:", code);
+
+codeInput.value = ""; // Clear the code input field after submission
 });
 
-// Récupérer le bouton de récupération et l'élément d'affichage du code
+// Retrieve the retrieve button and code display element
 const retrieveButton = document.getElementById("retrieve-button");
 const codeDisplay = document.getElementById("code-display");
 
-// Écouter l'événement de clic sur le bouton de récupération
+// Listen for the click event on the retrieve button
 retrieveButton.addEventListener("click", function() {
-  // Vous pouvez ajouter ici la logique de récupération d'un code depuis la base de données
-  
-  // Exemple de logique : Afficher un code de démonstration
-  const retrievedCode = "ABCD1234";
-  
-  codeDisplay.textContent = retrievedCode; // Afficher le code récupéré dans l'élément d'affichage
+// You can add your code logic here to retrieve a code from the database
+
+// Example logic: Display a demo code
+const retrievedCode = "ABCD1234";
+
+codeDisplay.textContent = retrievedCode; // Display the retrieved code in the code display element
 });
- 
